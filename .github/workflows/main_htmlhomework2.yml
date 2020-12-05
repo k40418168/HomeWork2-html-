@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'htmlhomework2'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_ab46e6116ddd48b4982ad92ed29f2cb8 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_47a7876a1c94489598c0a65de9313839 }}
         package: ${{env.DOTNET_ROOT}}/myapp 
